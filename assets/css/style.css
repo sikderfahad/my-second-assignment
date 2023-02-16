@@ -445,9 +445,6 @@ footer small {
 /* For Mobile Device */
 
 @media only screen and (max-width:576px) {
-    .hide {
-        display: none;
-    }
 
     header {
 
@@ -594,6 +591,108 @@ footer small {
         font-size: 30px;
     }
 
+    /* Facts & Milestone Facts Part */
+
+    .facts-container {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .facts-section {
+        width: 100%;
+    }
+
+    .facts-section>p {
+        line-height: 26px;
+        color: var(--dark-3);
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    .facts-section>p>br {
+        display: none;
+    }
+
+    .facts-section h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .milestone-box-container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .ms-box {
+        margin-top: 50px;
+    }
+
+    /* Sponsor Part */
+
+    .sponsor-container {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .sponsor-section {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .sponsor-section h2 {
+        font-size: 30px;
+    }
+
+    .sponsor-section p {
+        margin: 25px 0;
+        text-align: justify;
+    }
+
+    .sponsor-section>p>br {
+        display: none;
+    }
+
+    .spn-brand-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .brand-logo img {
+        filter: none;
+    }
+
+    /* Extra News Later Section */
+
+    .positiveContainer {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+
+    .linearOverlay {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .positiveContent {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .positiveContent h3 {
+
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .positiveContent input {
+        padding: 15px 40px;
+
+    }
+
     /* Footer Part */
 
     footer {
@@ -610,10 +709,6 @@ footer small {
 
 
 @media only screen and (min-width:577px) and (max-width:768px) {
-
-    .hide {
-        display: none;
-    }
 
     header {
 
@@ -709,7 +804,7 @@ footer small {
         width: 100%;
         flex-direction: column;
         gap: 50px;
-        margin-bottom: 140px;
+        margin-bottom: 50px;
 
     }
 
@@ -759,6 +854,75 @@ footer small {
 
     }
 
+    /* Facts & Milestone Facts Part */
+
+    .facts-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .facts-section {
+        width: 100%;
+    }
+
+    .facts-section>p {
+        line-height: 26px;
+        color: var(--dark-3);
+        margin-top: 20px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .facts-section>p>br {
+        display: none;
+    }
+
+    .facts-section h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .milestone-box-container {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+    .ms-box {
+        margin: auto;
+    }
+
+    /*  Sponsor Part */
+
+    .sponsor-container {
+        width: 100%;
+    }
+
+    .sponsor-section {
+        width: 100%;
+
+    }
+
+    .spn-brand-container {
+
+        gap: 50px;
+    }
+
+    .brand-logo img {
+
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    /* Extra News Later Section */
+
+    .positiveContainer {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 
     /* Footer Part */
 
