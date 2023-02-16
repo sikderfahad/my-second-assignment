@@ -437,3 +437,310 @@ footer {
 footer small {
     color: var(--dark-3);
 }
+
+.hide {
+    display: none;
+}
+
+/* Responsive Layout by Media Query */
+
+/* For Mobile Device */
+
+@media only screen and (max-width:576px) {
+    header {
+
+        padding: 10px;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .menubar {
+        margin-top: 20px;
+    }
+
+    .logo h3 {
+        font-size: 30px;
+    }
+
+    .menubar {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .menubar ul {
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menubar ul li {
+        width: 100%;
+        display: block;
+    }
+
+    .menubar ul li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .banner-show {
+        width: 100%;
+    }
+
+    .banner-content {
+        width: 100%;
+
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .banner-content p {
+        margin: 20px 0;
+        text-align: justify;
+    }
+
+    main {
+        padding: 0 10px;
+
+    }
+
+    .feature-container {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .feature-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature-display {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team img {
+        width: 100%;
+    }
+
+    .feature-text h2 {
+        font-size: 30px;
+    }
+
+    .feature-text p {
+
+        text-align: justify;
+    }
+
+    .experience-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 140px;
+
+    }
+
+    .exp-section {
+        width: 100%;
+    }
+
+    .exp-section::before {
+        height: 75px;
+    }
+
+    .exp-section h2 {
+        font-size: 30px;
+    }
+
+    .exp-section>p {
+        text-align: justify;
+    }
+
+    .exp-box h5 {
+        margin-bottom: 10px;
+    }
+
+    .exp-box p {
+        text-align: justify;
+    }
+
+    .experience-show {
+        width: 100%;
+    }
+
+    .experience-show img {
+        width: 100%;
+    }
+
+    .image-sticker {
+
+        left: 0;
+        bottom: -120px;
+        padding: 20px 0px;
+        width: 100%;
+    }
+
+    .sticker span {
+        font-size: 30px;
+    }
+}
+
+
+/* Responsive for Tablet Device */
+
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    header {
+
+        padding: 20px;
+    }
+
+    nav {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 50px;
+
+    }
+
+    .menubar {}
+
+    .logo h3 {
+        font-size: 30px;
+    }
+
+    .menubar {}
+
+    .menubar ul {
+        gap: 20px;
+
+    }
+
+    .menubar ul li {}
+
+    .menubar ul li a {
+        padding: 20px 10px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .banner-show {
+        width: 100%;
+    }
+
+    .banner-content {
+        width: 80%;
+
+    }
+
+    .banner-content h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .banner-content p {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    main {
+        padding: 0 20px;
+
+    }
+
+    .feature-container {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .feature-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature-display {
+        gap: 20px;
+    }
+
+    .team img {
+        width: 100%;
+    }
+
+    .feature-text {
+        text-align: center;
+        width: 80%;
+    }
+
+    .feature-text h2 {
+        font-size: 30px;
+    }
+
+    .feature-text p {
+        margin: 20px 0;
+    }
+
+    /* Experience Part */
+
+    .experience-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 140px;
+
+    }
+
+    .exp-section {
+        width: 100%;
+        margin: 50px 0;
+
+    }
+
+    .exp-section::before {
+        display: none;
+    }
+
+    .exp-section h2 {
+        font-size: 40px;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border-left: 5px solid var(--theme-color);
+    }
+
+    .exp-section>p {
+        text-align: center;
+    }
+
+    .exp-box h5 {
+        margin-bottom: 10px;
+    }
+
+    .exp-box p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .experience-show {
+        width: 100%;
+    }
+
+    .experience-show img {
+        width: 100%;
+    }
+
+    .image-sticker {
+
+        left: 0;
+        bottom: 0;
+
+    }
+
+
+}
